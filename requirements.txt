@@ -1,0 +1,4 @@
+six==1.16.0
+libscca-python==20221027
+ipcalc==1.99.0
+pyparsing==3.0.9
