@@ -35,6 +35,8 @@ and then create symbolic link to puff.sh:
 thats all :)
 
 
+# HOW TO USE:
+
 ```
 $ puff -h
 
