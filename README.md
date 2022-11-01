@@ -3,7 +3,7 @@ An easy and json friendly Windows prefetch file parser filterable by date.
 
 Can be usefull in Incident Response (IR) or forensics cases, when you need to detect running program in a slice of time in a large set of prefetch files.
 
-Created to work under Linux, but also on any system where there is python 3.10.
+Created to work under Linux, but also on any system where there is python >= 3.10 
 
 
 
