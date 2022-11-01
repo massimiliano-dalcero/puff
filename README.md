@@ -48,3 +48,8 @@ options:
                         Last Run Date Filter: last_run > 2022-11-25 18:00:00 and last_run < 2022-11-26 02:00:00
 ```
 
+An example of use:
+
+```
+$ puff --no-mapped -F "last_run > 2022-10-15 19:00:00 and last_run < 2022-10-15 23:00:00" /mnt/C1/Windows/Prefetch/*
+```
