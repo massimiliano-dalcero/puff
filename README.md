@@ -17,7 +17,7 @@ $ chmod +x puff.sh
 $ chmod +x puff.py
 ```
 
-exec the install.sh script (this create only python virtual env and install libraries inside with pip. All inside the current directory.):
+exec the install.sh script (this create only python virtual env and install libraries inside with pip. All inside the current directory):
 ```
 $ ./install.sh
 ```
