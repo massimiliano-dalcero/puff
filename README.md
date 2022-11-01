@@ -25,7 +25,7 @@ copy directory in (eg) /usr/share/puff/
 and then create symbolic link to puff.sh:
 
 ```
-# ln -s /usr/share/puff/puff.sh /usr/bin
+# ln -s /usr/share/puff/puff.sh /usr/bin/puff
 ```
 
 thats all :)
