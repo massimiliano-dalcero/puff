@@ -20,7 +20,8 @@ exec the install.sh script:
 
 Next, if you want this as system command:
 
-copy directory in (eg) /usr/share/puff
+copy directory in (eg) /usr/share/puff/
+
 and then create symbolic link to puff.sh:
 
 ```
