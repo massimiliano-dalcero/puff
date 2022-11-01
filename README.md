@@ -1,7 +1,10 @@
 # Puff
-An easy and json friendly Windows prefetch file parser filterable by date
+An easy and json friendly Windows prefetch file parser filterable by date.
+Can be usefull in IR case, when you need to detect running program in a slice of time.
 
-Created to work under linux, but also on any system where there is python 3.10
+Created to work under linux, but also on any system where there is python 3.10.
+
+
 
 
 # INSTALL:
