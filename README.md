@@ -25,9 +25,9 @@ $ ./install.sh
 
 Next: if you want this as system command:
 
-copy directory in (eg) /usr/share/puff/
+copy directory in /usr/share/puff/  (or where you prefer)
 
-and then create symbolic link to puff.sh:
+and then, create symbolic link to puff.sh in a system path:
 
 ```
 # ln -s /usr/share/puff/puff.sh /usr/bin/puff
