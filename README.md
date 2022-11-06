@@ -9,7 +9,7 @@ Created to work under Linux, but also on any system where there is python >= 3.1
 
 
 # INSTALL:
-clone project and inside directory 
+clone project ($ git clone https://github.com/massimiliano-dalcero/puff), enter inside directory ($ cd puff) and follow the next steps:
 
 ```
 $ chmod +x install.sh
@@ -22,7 +22,7 @@ exec the install.sh script (this create only python virtual env and install libr
 $ ./install.sh
 ```
 
-Next, if you want this as system command:
+Next: if you want this as system command:
 
 copy directory in (eg) /usr/share/puff/
 
