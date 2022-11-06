@@ -9,15 +9,16 @@ Created to work under Linux, but also on any system where there is python >= 3.1
 
 
 # INSTALL:
-clone project ($ git clone https://github.com/massimiliano-dalcero/puff), enter inside directory ($ cd puff) and follow the next steps:
+Clone project as usual ($ git clone https://github.com/massimiliano-dalcero/puff), enter inside directory ($ cd puff) and follow the next steps:
 
+Assign execution permission to scripts:
 ```
 $ chmod +x install.sh
 $ chmod +x puff.sh
 $ chmod +x puff.py
 ```
 
-exec the install.sh script (this create only python virtual env and install libraries with pip. All inside the current directory):
+Exec the install.sh script (this create only python virtual env and install libraries with pip. All inside the current directory):
 ```
 $ ./install.sh
 ```
