@@ -58,5 +58,5 @@ options:
 An example of use:
 
 ```
-$ puff --no-mapped -F "last_run > 2022-10-15 19:00:00 and last_run < 2022-10-15 23:00:00" /mnt/C1/Windows/Prefetch/*
+$ puff --no-mapped -F "last_run >= 2022-10-15 19:00:00 and last_run < 2022-10-15 23:00:00" /mnt/C1/Windows/Prefetch/*
 ```
