@@ -117,11 +117,12 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
                     prog = 'puff',
-                    description = 'Puff 1.0: An easy and JSON friendly Windows prefetch file parser based on pyscca library',
+                    description = 'Puff 1.0.1: An easy and JSON friendly Windows prefetch file parser based on pyscca library',
                     epilog = '--- [developed by Massimiliano Dal Cero] ---'
     )
 
     parser.add_argument('--no-mapped', required=False, help="Don't extract mapped file", action='store_true')
+    parser.add_argument('--minimal', required=False, help="Minimal output: only essential evidences", action='store_true')
     parser.add_argument('-F', '--filter', type=str, required=False, help="Last Run Date Filter: last_run > 2022-11-25 18:00:00 and last_run < 2022-11-26 02:00:00", default=None)
     parser.add_argument('file.pf', type=str, nargs='+', help="Windows prefetch file")
 
@@ -146,8 +147,20 @@ if __name__ == "__main__":
                     if expr(c):
                         adding = True
             
-            if args.no_mapped:
+            if args.no_mapped and not args.minimal:
                 del(pf["mapped_files"])
+
+            if args.minimal:
+                del(pf["mapped_files"])
+                del(pf["devices"])
+                del(pf["format_version"])
+                del(pf["number_of_volumes"])
+                del(pf["executable"])
+                del(pf["prefetch_hash"])
+                del(pf["version"])
+                del(pf["volume_device_paths"])
+                del(pf["volume_serial_numbers"])
+
 
             del(pf["last_runs_dt"])
 
