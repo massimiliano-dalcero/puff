@@ -41,8 +41,6 @@ thats all :)
 ```
 $ puff -h
 
-usage: puff [-h] [--no-mapped] [-F FILTER] file.pf [file.pf ...]
-
 usage: puff [-h] [--no-mapped] [--minimal] [-F FILTER] file.pf [file.pf ...]
 
 Puff 1.0.1: An easy and JSON friendly Windows prefetch file parser based on pyscca library
