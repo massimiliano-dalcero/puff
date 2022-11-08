@@ -37,7 +37,7 @@ def ParseSCCAFile(scca_file, no_map = False):
     for volume_information in iter(scca_file.volumes):
       volume_serial_number  = volume_information.serial_number
       volume_device_path    = volume_information.device_path
-      devtimestamp             = volume_information.get_creation_time_as_integer()
+      devtimestamp          = volume_information.get_creation_time_as_integer()
 
       volume_serial_numbers.append(volume_serial_number)
       volume_device_paths.append(volume_device_path.replace('\\',"/"))
