@@ -55,8 +55,6 @@ options:
   -F FILTER, --filter FILTER
                         Last Run Date Filter: last_run > 2022-11-25 18:00:00 and last_run < 2022-11-26 02:00:00
 
---- [developed by Massimiliano Dal Cero] ---
-
 ```
 
 An example of use:
