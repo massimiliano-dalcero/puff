@@ -43,7 +43,9 @@ $ puff -h
 
 usage: puff [-h] [--no-mapped] [-F FILTER] file.pf [file.pf ...]
 
-Puff 1.0: An easy and JSON friendly Windows prefetch file parser based on pyscca library
+usage: puff [-h] [--no-mapped] [--minimal] [-F FILTER] file.pf [file.pf ...]
+
+Puff 1.0.1: An easy and JSON friendly Windows prefetch file parser based on pyscca library
 
 positional arguments:
   file.pf               Windows prefetch file
@@ -51,12 +53,17 @@ positional arguments:
 options:
   -h, --help            show this help message and exit
   --no-mapped           Don't extract mapped file
+  --minimal             Minimal output: only essential evidences
   -F FILTER, --filter FILTER
                         Last Run Date Filter: last_run > 2022-11-25 18:00:00 and last_run < 2022-11-26 02:00:00
+
+--- [developed by Massimiliano Dal Cero] ---
+
 ```
 
 An example of use:
 
 ```
 $ puff --no-mapped -F "last_run >= 2022-10-15 19:00:00 and last_run < 2022-10-15 23:00:00" /mnt/C1/Windows/Prefetch/*
+$ puff --minimal -F "last_run >= 2022-10-15 19:00:00 and last_run < 2022-10-15 23:00:00" /mnt/C1/Windows/Prefetch/*
 ```
