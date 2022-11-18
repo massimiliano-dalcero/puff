@@ -1,6 +1,5 @@
 # Puff
-An easy and json friendly tool for Windows prefetch file parser filterable by date, for *Digital Forensics* and *Incident Response* Analysis,
-
+A Digital Forensics and Incident Response (DFIR) tool for Windows prefetch analysis filterable by date and json friendly.
 Can be usefull in Incident Response (IR) or forensics cases, when you need to detect running program in a slice of time in a large set of prefetch files.
 
 Created to work under Linux, but also on any system where there is python >= 3.10 
