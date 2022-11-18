@@ -1,5 +1,5 @@
 # Puff
-An easy and json friendly Windows prefetch file parser filterable by date.
+An easy and json friendly Windows prefetch file parser filterable by date, for *Digital Forensics* and *Incident Response* Analysis,
 
 Can be usefull in Incident Response (IR) or forensics cases, when you need to detect running program in a slice of time in a large set of prefetch files.
 
@@ -26,8 +26,7 @@ $ ./install.sh
 Next: if you want this as system command:
 
 copy directory in /usr/share/puff/  (or where you prefer)
-
-and then, create symbolic link to puff.sh in a system path:
+run install.sh inside directory and then, create symbolic link to puff.sh in a system path:
 
 ```
 # ln -s /usr/share/puff/puff.sh /usr/bin/puff
